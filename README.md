@@ -29,8 +29,8 @@ Chrome Extension, TypeScript and Visual Studio Code
 
 * src/typescript: TypeScript source files
 * src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
+* build: Chrome Extension directory
+* build/js: Generated JavaScript files
 
 ## Setup
 
@@ -64,7 +64,7 @@ type `Ctrl + Shift + B`
 
 ## Load extension to chrome
 
-Load `dist` directory
+Load `build` directory
 
 ## Test
 `npx jest` or `npm run test`
